@@ -1,0 +1,28 @@
+/* styles/header.css */
+
+/* Header styles */
+.header {
+  display: flex; /* Equivalent to Tailwind's flex */
+  justify-content: space-between; /* Equivalent to Tailwind's justify-between */
+  padding: 1.25rem; /* Equivalent to Tailwind's p-5 */
+  background-color: #f3f4f6; /* Equivalent to Tailwind's bg-gray-100 */
+}
+
+/* Logo styles */
+.logo {
+  font-weight: bold; /* Equivalent to Tailwind's font-bold */
+  font-size: 1.5rem; /* Equivalent to Tailwind's text-2xl */
+}
+
+/* Navigation styles */
+.nav a {
+  margin-left: 1rem; /* Equivalent to Tailwind's mx-4 (for left margin) */
+  margin-right: 1rem; /* Equivalent to Tailwind's mx-4 (for right margin) */
+  color: #000000; /* Equivalent to Tailwind's text-black */
+  text-decoration: none; /* Equivalent to Tailwind's no-underline */
+}
+
+/* User icon styles */
+.user-icon {
+  font-size: 1.5rem; /* Equivalent to Tailwind's text-2xl */
+}

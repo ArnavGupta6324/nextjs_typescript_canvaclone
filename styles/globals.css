@@ -1,0 +1,69 @@
+/* Tailwind Directives */
+
+
+/* Global Reset Styles */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Body Styles */
+html, body {
+  font-family: Arial, sans-serif; /* You can use Tailwind's font-sans for consistency */
+  background-color: #f5f5f5; /* Can be set in Tailwind's theme for consistency */
+  color: #333; /* Default text color, can be set in Tailwind theme */
+  height: 100%;
+  line-height: 1.5; /* Better line height for text */
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600; /* Can be adjusted through Tailwind utilities or theme */
+}
+
+/* Button Styles */
+button {
+  font-family: inherit; /* Inherit font-family from parent */
+  cursor: pointer;
+  background: none; /* Remove any default background */
+  border: none; /* Remove any default borders */
+  outline: none; /* Remove default focus outlines */
+  padding: 0.5rem 1rem; /* Add some padding */
+  transition: background-color 0.3s; /* Smooth background transition for hover */
+}
+
+button:focus {
+  outline: none; /* Remove default focus outline */
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1); /* Add custom focus effect */
+}
+
+button:hover {
+  background-color: #ddd; /* Light gray hover state */
+}
+
+/* Utility Classes */
+.container {
+  max-width: 1200px; /* Ensure the container doesn't get too wide */
+  margin: 0 auto; /* Center the container */
+  padding: 0 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Layout Adjustments */
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* App Container */
+.App {
+  text-align: center; /* Centers the content in the App */
+}
